@@ -1,4 +1,5 @@
 body {
+  min-height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App{
+  min-height: 100vh;
+}
+
+.App.light{
+  color: #000;
+  background: #f3f3f3f3;
+}
+.App.dark{
+  color: #f3f3f3f3;
+  background: #000;
 }
